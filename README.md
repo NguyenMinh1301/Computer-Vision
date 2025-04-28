@@ -1,4 +1,4 @@
-# Computer Vision Object Counter 🎥🔍
+# Computer Vision Object Counter
 
 > Easily count and track objects in video regions using Ultralytics YOLO models with minimal setup.
 
@@ -15,6 +15,10 @@
 
 ## 📊 Demo
 
+## 📊 Demo
+
+*Click on the GIFs above to watch the full demo on YouTube*
+
 | Original | Result |
 |----------|--------|
 | [![Original](assets/video1gif.gif)](https://youtu.be/IuxnOB15ODw) | [![Result](assets/video1outputgif.gif)](https://youtu.be/XgWEnEZNBw4) |
@@ -22,9 +26,8 @@
 | [![Original](assets/video3gif.gif)](https://youtu.be/WOpt5hei1c8) | [![Result](assets/video3outputgif.gif)](https://youtu.be/SEIF9s7-TcA) |
 | [![Original](assets/video4gif.gif)](https://youtu.be/0cVeQ_zNdI4) | [![Result](assets/video4outputgif.gif)](https://youtu.be/fEeg81393s4) |
 
-*Click on the GIFs above to watch the full demo on YouTube*
+#### Comparison between models
 
-|Comparison between models|
 | 11n (BASIC) | 11x (HIGH) | 8x6 (ULTRA) |
 |----------|----------|----------|
 | [![11n](assets/model-yolo11n.pt.gif)](https://youtu.be/KLQWOxvzzBE) | [![11x](assets/model-yolo11x.pt.gif)](https://youtu.be/XgWEnEZNBw4) | [![8x6](assets/mode-yolov8x6.pt.gif)](https://youtu.be/J6mvu5CUQas)
@@ -95,17 +98,24 @@ cap = cv2.VideoCapture("path/to/your/video.mp4")
 
 ### Defining Region Points
 
-1. First, extract a frame from your video to identify region coordinates:
+1. First take a frame from your video to extract your desired coordinates:
 
+#### Change path to your video
 ```bash
-python -c "import cv2; cap = cv2.VideoCapture('your_video.mp4'); ret, frame = cap.read(); cv2.imwrite('reference_frame.jpg', frame) if ret else print('Failed to extract frame')"
+VIDEO = "<videoname>.mp4"
 ```
 
-2. Open the image in an image editor or use our helper script to determine coordinates:
+#### After that run video-frame.py to take frame
 
 ```bash
-python video_frame.py --video your_video.mp4
+python video-frame.py
 ```
+
+#### You will get a file name "snapshot.png" in the same folder
+
+2. Go to https://polygonzone.roboflow.com/ to extract your desired coordinates:
+
+<img src="assets/demo-roboflow.jpg" width="100%"></img>
 
 3. Update the region points in your script:
 
