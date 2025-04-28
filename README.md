@@ -15,8 +15,6 @@
 
 ## 📊 Demo
 
-## 📊 Demo
-
 *Click on the GIFs above to watch the full demo on YouTube*
 
 | Original | Result |
@@ -186,14 +184,6 @@ ffmpeg -i your_video.mp4 -ss 00:00:05 -t 5 -vf "fps=10,scale=400:-1" demo/origin
 ffmpeg -i processed_video.avi -ss 00:00:05 -t 5 -vf "fps=10,scale=400:-1" demo/result.gif
 ```
 
-## 🔮 Roadmap
-
-- [ ] Multi-camera support for synchronized monitoring
-- [ ] Cloud-based storage and analytics
-- [ ] Object tracking across regions
-- [ ] Integration with popular dashboarding tools
-- [ ] Custom classification training interface
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -210,7 +200,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-Project Link: [https://github.com/username/Computer-Vision](https://github.com/username/Computer-Vision)
+- **Email**: nguyenminh1301.dev@gmail.com
+- **GitHub**: [NguyenMinh1301](https://github.com/NguyenMinh1301)
 
 ---
 
