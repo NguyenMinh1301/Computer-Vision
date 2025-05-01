@@ -28,7 +28,7 @@
 
 | 11n (BASIC) | 11x (HIGH) | 8x6 (ULTRA) |
 |----------|----------|----------|
-| [![11n](assets/model-yolo11n.pt.gif)](https://youtu.be/KLQWOxvzzBE) | [![11x](assets/model-yolo11x.pt.gif)](https://youtu.be/XgWEnEZNBw4) | [![8x6](assets/mode-yolov8x6.pt.gif)](https://youtu.be/J6mvu5CUQas)
+| [![11n](assets/model-yolo11n.pt.gif)](https://youtu.be/KLQWOxvzzBE) | [![11x](assets/model-yolo11x.pt.gif)](https://youtu.be/ePtlQ-DPS0c) | [![8x6](assets/mode-yolov8x6.pt.gif)](https://youtu.be/J6mvu5CUQas)
 
 ## 🚀 Getting Started
 
