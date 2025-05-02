@@ -202,7 +202,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - **Email**: nguyenminh1301.dev@gmail.com
 - **GitHub**: [NguyenMinh1301](https://github.com/NguyenMinh1301)
-
----
-
-⭐ Star this repo if it helps your computer-vision journey!
