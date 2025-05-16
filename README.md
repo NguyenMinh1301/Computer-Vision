@@ -4,7 +4,7 @@
 
 <a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
-## ✨ Features
+## Features
 
 - Region-based object counting with customizable polygons
 - Multiple region support for complex monitoring scenarios
@@ -13,7 +13,7 @@
 - Simple API with minimal code requirements
 - Video output generation for analysis and sharing
 
-## 📊 Demo
+## Demo
 
 *Click on the GIFs above to watch the full demo on YouTube*
 
@@ -30,7 +30,7 @@
 |----------|----------|----------|
 | [![11n](assets/model-yolo11n.pt.gif)](https://youtu.be/KLQWOxvzzBE) | [![11x](assets/model-yolo11x.pt.gif)](https://youtu.be/ePtlQ-DPS0c) | [![8x6](assets/mode-yolov8x6.pt.gif)](https://youtu.be/J6mvu5CUQas)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -172,7 +172,7 @@ video_writer = cv2.VideoWriter("path/to/output.avi", cv2.VideoWriter_fourcc(*"mp
 
 *Performance measured on NVIDIA RTX 3090. Your results may vary based on hardware.*
 
-## 🎬 Creating Demo GIFs
+## Creating Demo GIFs
 
 Convert video segments to GIFs for documentation:
 
@@ -184,7 +184,7 @@ ffmpeg -i your_video.mp4 -ss 00:00:05 -t 5 -vf "fps=10,scale=400:-1" demo/origin
 ffmpeg -i processed_video.avi -ss 00:00:05 -t 5 -vf "fps=10,scale=400:-1" demo/result.gif
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -194,11 +194,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## 📬 Contact
+## Contact
 
 - **Email**: nguyenminh1301.dev@gmail.com
 - **GitHub**: [NguyenMinh1301](https://github.com/NguyenMinh1301)
